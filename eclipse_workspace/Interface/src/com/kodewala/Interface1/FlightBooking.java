@@ -24,5 +24,9 @@ public class FlightBooking implements IBooking {
 
 		return null;
 	}
+	
+	public static void printTicket() {
+		System.out.println("FlightBooking.printTicket()...");
+	}
 
 }
