@@ -27,4 +27,5 @@ public interface IBooking {
 		System.out.println("IBooking.connectDB()...");
 	}
 	//we can make private method static as well
+	//visibility of inherited methods should be widen or same but can not be narrowed .... Access modifier
 }
