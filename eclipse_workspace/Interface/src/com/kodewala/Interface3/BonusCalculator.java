@@ -12,3 +12,5 @@ class Employee {
 		return calculator.calculateBonus(salary);
 	}
 }
+
+//in class we are declareing the interface method in arguments of new method and then returning the working of method
