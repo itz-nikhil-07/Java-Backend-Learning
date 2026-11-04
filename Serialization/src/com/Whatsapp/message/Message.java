@@ -3,7 +3,7 @@ package com.Whatsapp.message;
 import java.io.Serializable;
 
 public class Message implements Serializable{
-	private static final long serialVersionUID = 1L;  //unique id given by jvm to the class
+	private static final long serialVersionUID = 1L;  //unique id given by jvm to the class, jvm automatically generates one
 	private String messageId;
 	private String message;
 	private transient String userId; //will be skipped during initialization cuz of transient 

@@ -1,4 +1,4 @@
-package com.Whatsapp.message;
+package com.Whatsapp.message;  //serializable and de serializable class should have same package name 
 
 import java.io.Serializable;
 
