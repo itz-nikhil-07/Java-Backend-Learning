@@ -30,6 +30,7 @@ public class Demo {
 }
 /*
  * Thread Dump = if out of memory error, pleas capture the thread dump increase
- * the heap size if possible - Workaround Restart the application - Workaround
+ * the heap size if possible - Workaround
+ *  Restart the application - Workaround
  * explore the types of garbage collector
  */
