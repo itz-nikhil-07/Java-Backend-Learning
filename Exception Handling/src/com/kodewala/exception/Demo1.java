@@ -1,7 +1,7 @@
 package com.kodewala.exception;
 /*
  * author Nikhil
- * Here we wrote our first exception handling code by ourselves
+ * Here I wrote our first exception handling code
  */
 public class Demo1 {
 	public static void main(String[] args) {
