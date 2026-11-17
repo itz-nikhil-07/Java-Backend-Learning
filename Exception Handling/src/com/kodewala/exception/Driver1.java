@@ -26,15 +26,15 @@ class Account {
 		boolean isValid = accNo.startsWith("SBI");
 		
 		}
-//		catch (NullPointerException e) {
-//			System.out.println("can not be null");
-//			e.printStackTrace();
-//		}
-//		catch (Exception e) {
+		catch (NullPointerException e) {    //Child exception class 
+			System.out.println("can not be null");
+			e.printStackTrace();
+		}
+//		catch (Exception e) {    //parent exception class 
 //			System.out.println("parent of all exception classes but still sub class of throwable class");
 //			e.printStackTrace();
 //		}
-		catch (ArithmeticException e) {
+		catch (ArithmeticException e) { //child exception class 
 			System.out.println("not divided by zero");
 			e.printStackTrace();
 		}
