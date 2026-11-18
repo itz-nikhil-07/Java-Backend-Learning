@@ -6,10 +6,10 @@ import java.io.ObjectOutputStream;
 
 public class Demo {
 	public static void main(String[] args) {
-		String name = null;
-		System.out.println(name.length());
+//		String name = null;
+//		System.out.println(name.length());
 
-		String className = "com.kodewala.exception_checked.Demo"; //this is compile time exception which should be handled first 
+		String className = "com.kodewala.exception_checked.Demooo"; //this is compile time exception which should be handled first 
 		try {
 			Class.forName(className);
 			System.out.println("Class Loaded");
