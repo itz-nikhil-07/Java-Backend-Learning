@@ -10,7 +10,7 @@ public class Driver {
 
 		try {
 			FileOutputStream fos = new FileOutputStream(
-					"employee.txt");
+					"C:\\Users\\nikhi\\Desktop\\Java Backend\\Exception Handling\\employee.txt");
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
 			oos.writeObject(emp);
 			oos.close();
