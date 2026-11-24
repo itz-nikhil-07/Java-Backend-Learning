@@ -13,8 +13,11 @@ public class IterableDemo {
 		numbers.add(50);
 
 		// printing all elements using a traditional for loop
-		for (int i = 0; i < numbers.size(); i++) {
-			System.out.println(numbers.get(i));
+//		for (int i = 0; i < numbers.size(); i++) {
+//			System.out.println(numbers.get(i));
+		
+		for (int item : numbers) {
+			System.out.println(item); //enhanced for loop
 		}
 		// print even number
 		System.out.println("Even numbers");
