@@ -7,7 +7,6 @@ public class Demo1 {
 		ArrayList<Integer> prices = new ArrayList<>();
 		prices.add(500);
 		prices.add(null);
-		prices.add(400);
 		prices.add(120);
 		prices.add(null);
 		
